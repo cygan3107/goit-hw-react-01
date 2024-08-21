@@ -19,8 +19,8 @@ export const Profile = ({ name, tag, location, image, stats }) => {
           <span>Views</span>
           <span className={css.item_bold}>{stats.views}</span>
         </li>
-        <li className={css.list_item}>
-          <span className="title">Likes</span>
+        <li className={css.item_border}>
+          <span>Likes</span>
           <span className={css.item_bold}>{stats.likes}</span>
         </li>
       </ul>
