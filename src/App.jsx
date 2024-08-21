@@ -3,8 +3,8 @@ import { Profile } from "./components/Profile/Profile";
 import { FriendsList } from "./components/FriendsList/FriendsList";
 import { TransactionHistory } from "./components/TransactionHistory/TransactionHistory";
 import userData from "./userData.json";
-import friends from "./friend.json";
-import transactions from "./transaction.json";
+import friends from "./friends.json";
+import transactions from "./transactions.json";
 
 export const App = () => {
   return (
